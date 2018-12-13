@@ -1,0 +1,37 @@
+ATTACK
+ATTACK
+The basic attack
+5
+NORMAL|HEALTH|OPPONENT|ATTACK
+END
+MASK
+OFFENSEBREAK
+Reduces opponent's offense capacity by 37
+5
+NORMAL|OFFENSE|OPPONENT|-37
+END
+SCAN
+DEFENSEBREAK
+Reduces opponents defense capacity by 35
+5
+NORMAL|DEFENSE|OPPONENT|-35
+END
+SHIELD
+DEFENSEBOOST
+Protects yourself increasing defense by 36
+5
+NORMAL|DEFENSE|SELF|36
+END
+OVERFLOW
+OFFENSEBOOST
+Readies an attack, reduces own defense by 22, inscreases attack by 37
+5
+NORMAL|OFFENSE|SELF|37
+NORMAL|DEFENSE|SELF|-22
+END
+PSIBOOST
+SPECIAL
+Gains psi if you have enough psi
+6
+NORMAL|PSI|SELF|8
+END
